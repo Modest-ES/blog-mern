@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 240, 255);
+    color: rgb(40, 40, 40);
+    /* height: 100%; */
+    font-family: 'Lato';
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Kanit';
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.header-shell {
+    background: linear-gradient(-45deg, rgb(230, 230, 255), rgb(210, 210, 255));
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    margin-right: 10px;
+}
+
+.header-right a {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.post {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 20px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-family: 'Kanit';
+    font-size: 25px;
+}
+
+.post-metainfo {
+    display: flex;
+    font-size: 14px;
+}
+
+.post-datetime {
+    margin-right: 7px;
+}
+
+.post-author {
+    font-family: 'Kanit';
+    font-size: 14px;
+}
+
+.post-content {
+    font-size: 15px;
+}
